@@ -40,16 +40,17 @@ body{
 
 
 p {
-	letter-spacing: 1px;
-	font-size: 1.2em;
+	letter-spacing: 0.7px;
+	line-height: 1.7em;
+	font-size: 1.1em;
 	font-family: 'Lato', sans-serif;
-	padding-top: 10px;
+	margin-bottom: 25px;
 }
 
 a{
 	color: #243EFF;
-	letter-spacing: 1px;
-	font-size: 1.2em;
+	letter-spacing: 0.7px;
+	font-size: 1em;
 	font-family: 'Lato', sans-serif;
 }
 
@@ -115,6 +116,7 @@ h1, h2, h3, h4, h5{
 	background-image: url("../images/smalldot.png");
 	background-repeat: repeat;
 	backface-visibility: visible;
+	background-position: center;
 }
 
 .footer{
@@ -126,7 +128,7 @@ h1, h2, h3, h4, h5{
 	background-repeat: repeat;
 	backface-visibility: visible;
 	padding: 50px 0;
-	margin: 20px 0 0 0;
+	margin: 40px 0 0 0;
 }
 
 .page-title{
@@ -149,5 +151,31 @@ h1, h2, h3, h4, h5{
 }
 
 .projects p{
+	font-size: 1.1em;
+}
+
+.mystory p{
+	text-align: justify;
+}
+
+.mystory .title{
+	font-family: 'Lato', sans-serif;
+	letter-spacing: 1px;
+	line-height: 1.2em;
+	font-size: 1.2em;
+}
+
+.resume .title{
+	font-family: 'Lato', sans-serif;
+	letter-spacing: 1px;
+	line-height: 1.2em;
+	font-weight: 600;
+	font-size: 1.2em;
+}
+
+.resume .sub-title{
+	font-family: 'Lato', sans-serif;
+	letter-spacing: 1px;
+	line-height: 1.2em;
 	font-size: 1.1em;
 }
