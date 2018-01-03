@@ -179,3 +179,13 @@ h1, h2, h3, h4, h5{
 	line-height: 1.2em;
 	font-size: 1.1em;
 }
+
+.recent-projects a{
+	font-family: 'Lato', sans-serif;
+	letter-spacing: 1px;
+	line-height: 1.2em;
+	font-weight: 400;
+	font-size: 1.2em;
+	color: #243EFF !important;
+	margin-bottom: 5px;
+}
